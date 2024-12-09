@@ -1,6 +1,6 @@
 ### About
 
-This bash script extracts the private key, certificate, and chain certificates from a .pfx file, removes any unnecessary metadata (such as Bag Attributes), and then packages the cleaned certificates and keys into a ZIP file (file are prepared in the apache format) for installation on the linux servers.<br><br>
+This bash script extracts the private key, certificate, and chain certificates from a .pfx file, removes any unnecessary metadata (such as Bag Attributes), and then packages the cleaned certificates and keys into a ZIP file (files are prepared in the apache format) for installation on the linux servers.<br><br>
 It is designed to facilitate the export of SSL certificates, private keys, and intermediate certificates for a specified domain.
 
 ### How the Script Works:
