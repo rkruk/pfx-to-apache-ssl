@@ -61,12 +61,12 @@ The script requires openssl and awk to extract and clean the PEM files.<br>
 It works with .pfx files that contain the private key, SSL certificate, and chain certificates.<br>
 
 Example:<br>
-You run the script:
+Run the script:
 
 ```console
 bash certificate-export.sh
 ```
 
-Enter the domain name like: example.com and the PFX password.
+Enter the domain name: example.com and the PFX password.
 The script extracts the necessary files, cleans them from metadata, and produces the following ZIP file: example_com_ssl_cert_pack.zip.<br>
 This script simplifies the process of preparing SSL certificates for server installation and can be used by administrators to easily export and send certificates to hosting providers or other administrators.<br><br>
